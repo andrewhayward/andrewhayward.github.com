@@ -1,0 +1,220 @@
+/* ===[ Mixins ]============================================================= */
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v4/_aijTyevf54tkVDLy-dlnLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+	font-family: FontAwesome;
+	font-weight: 400;
+	font-style: normal;
+	src: url(https://netdna.bootstrapcdn.com/font-awesome/3.0/font/fontawesome-webfont.eot);
+	src: url(https://netdna.bootstrapcdn.com/font-awesome/3.0/font/fontawesome-webfont.eot?#iefix) format('embedded-opentype'), url(https://netdna.bootstrapcdn.com/font-awesome/3.0/font/fontawesome-webfont.woff) format('woff'), url(https://netdna.bootstrapcdn.com/font-awesome/3.0/font/fontawesome-webfont.ttf) format('truetype');
+}
+
+/* ===[ Reset ]============================================================== */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+fieldset,
+form,
+label,
+legend,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* ===[ Core ]=============================================================== */
+html {
+	font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.5em;
+	letter-spacing: 0.05em;
+	color: #333;
+	background: #FFF;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+pre {
+	margin-top: 1.5em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+	display: block;
+}
+
+/* ===[ Bits and pieces ]==================================================== */
+a {
+	text-decoration: none;
+	border-bottom: solid 1px #999;
+	border-color: rgba(0, 0, 0, 0.25);
+	color: #000;
+}
+
+a:focus {
+	outline: thin dotted;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+/* ===[ Header ]============================================================= */
+#header {
+	text-align: center;
+}
+
+#navigation input {
+	display: none;
+}
+
+#navigation li {
+	display: inline;
+}
+
+#navigation li::before,
+#navigation li::after {
+	content: "\00A0";
+}
+
+/* ===[ Content ]============================================================ */
+#content h1 {
+	line-height: 1.25em;
+}
+
+#content footer {
+	font-size: 0.8em;
+}
+
+/* ===[ Extraneous ]========================================================= */

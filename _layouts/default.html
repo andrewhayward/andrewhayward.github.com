@@ -48,7 +48,7 @@
 					<div class="constrained">
 						<div class="meta">
 							<header>
-								<h1>{{ page.title }} <i></i></h1>
+								<h1>{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h1>
 							</header>
 						</div>
 						<div class="content">

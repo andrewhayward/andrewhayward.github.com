@@ -1,8 +1,13 @@
 ---
 layout: default
 title: Labs
+header: Labs <i></i>
 ---
 
-I'll put something here at some point. Soon. Hopefully.
+This is where I stick all my junk. Like a code loft. At least, if the inside of your roof is anything like mine, anyway.
 
-In the mean time, I need to learn a little something about GitHub Pages, and Jekyll, apparently.
+## [Wordpress](/wordpress/)
+
+* [Shortbread](/wordpress/shortbread/) [<span>(GitHub)</span>](https://github.com/andrewhayward/shortbread "GitHub")  
+  -- a self-hosted short URL plugin for WordPress
+

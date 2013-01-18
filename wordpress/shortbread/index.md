@@ -26,7 +26,7 @@ There are three configuration options:
 
 ## Usage
 
-Shortbread introduces a new function -- `has_shortlink()` -- which tries to indicate whether a short URL is available in your current context. This allows you to put things like this in your templates.
+**Shortbread** introduces a new function -- `has_shortlink()` -- which tries to indicate whether a short URL is available in your current context. This allows you to put things like this in your templates.
 
 {% highlight php %}
 <?php if (has_shortlink()): ?>

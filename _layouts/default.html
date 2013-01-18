@@ -11,7 +11,8 @@
 		<!--<![endif]-->
 		<link rel="stylesheet" href="/media/css/print.min.css" media="print">
 		<style>
-			#content h1 i::after {
+			#content h1 i::after,
+			#content a[href^="https://github.com"]::after {
 				content: "\F085";
 				font-family: FontAwesome;
 				font-weight: normal;
@@ -19,20 +20,15 @@
 				font-size: 0.9em;
 				line-height: 1em;
 			}
-			#content a[href*="github.com"] span {
+			#content a[href^="https://github.com"] span {
 				display: inline-block;
 				text-indent: -999em;
 				overflow: hidden;
 			}
-			#content a[href*="github.com"]::after {
+			#content a[href^="https://github.com"]::after {
 				content: "\00A0\F09B";
-				font-family: FontAwesome;
-				font-weight: normal;
-				font-style: normal;
-				font-size: 0.9em;
-				line-height: 1em;
 			}
-			#content a[href*="github.com"][title]::after {
+			#content a[href^="https://github.com"][title]::after {
 				content: "\F09B";
 			}
 		</style>

@@ -728,9 +728,17 @@ form.openid input[type="submit"]:focus {
 	color: inherit;
 }
 
+#navigation .current-page-ancestor a,
 #navigation .current_page_parent a,
 #navigation .current-menu-item a {
 	color: #EEE;
+}
+
+@media all and (max-width: 62.5em) {
+	#navigation ul li {
+	  padding-right: 0.75em;
+	}
+
 }
 
 @media all and (max-width: 43.75em) {
